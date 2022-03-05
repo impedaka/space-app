@@ -49,3 +49,29 @@ export const SmallButton = styled.div`
   padding: 27px 53px;
   border: rgba(255, 255, 255, 0.5) solid 1px;
 `;
+export const Grid = styled.div`
+  display: grid;
+  gap: 140px;
+  padding-top: 130px;
+  padding-left: 250px;
+  padding-right: 250px;
+  grid-template-columns: repeat(3, 1fr);
+`;
+
+export const GridItem = styled.div`
+  min-height: 280px;
+  min-width: 225px;
+  background-color: rgba(2, 8, 24, 0.5);
+  border: 2px solid #ffffff;
+`;
+export const LargeText = styled.p`
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+`;
+export const Foot = styled.div`
+  margin-top: 180px;
+  background-color: #020818;
+  padding: 50px 630px;
+`;

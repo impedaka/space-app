@@ -1,5 +1,15 @@
 import React from "react";
-import { Button, Row, Starbg, Subheading, Col, SmallButton } from "../Hero";
+import Card from "../Card";
+import Footer from "../Footer";
+import {
+  Button,
+  Row,
+  Starbg,
+  Subheading,
+  Col,
+  SmallButton,
+  Grid,
+} from "../Hero/Hero";
 
 const Nav = () => {
   return (
@@ -27,6 +37,18 @@ const Nav = () => {
             <Subheading>Future</Subheading>
           </SmallButton>
         </Row>
+        <Grid>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </Grid>
+        <Footer />
       </Col>
     </Starbg>
   );
