@@ -6,13 +6,12 @@ export const Starbg = styled.div`
   max-width: 100%;
   height: auto;
   display: flex;
-
   background-size: cover;
   background-repeat: no-repeat;
 `;
 export const HeroBg = styled.div`
   background: url(${bg});
-  max-width: 100%;
+  min-width: 100%;
   min-height: 610px;
   display: flex;
   justify-content: center;
@@ -42,7 +41,8 @@ export const Subheading = styled.p`
   font-size: 36px;
 `;
 export const Button = styled.div`
-  padding: 70px 140px;
+  padding: 70px 120px;
+  width: 100%;
   border: rgba(255, 255, 255, 0.5) solid 1px;
 `;
 export const SmallButton = styled.div`

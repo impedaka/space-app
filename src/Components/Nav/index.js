@@ -15,18 +15,20 @@ const Nav = () => {
   return (
     <Starbg>
       <Col>
-        <Row style={{ justifyContent: "space-around" }}>
+        <Row>
           <Button style={{ backgroundColor: "rgba(255, 255, 255, 0.2)" }}>
-            <Subheading>From Exosphere</Subheading>
+            <Subheading style={{ flexGrow: "1" }}>From Exosphere</Subheading>
           </Button>
           <Button>
-            <Subheading>To the Solar System</Subheading>
+            <Subheading style={{ flexGrow: "1" }}>
+              To the Solar System
+            </Subheading>
           </Button>
           <Button>
-            <Subheading>And Beyond</Subheading>
+            <Subheading style={{ flexGrow: "1" }}>And Beyond</Subheading>
           </Button>
         </Row>
-        <Row>
+        <Row style={{}}>
           <SmallButton style={{ backgroundColor: "rgba(255, 255, 255, 0.2)" }}>
             <Subheading>Past</Subheading>
           </SmallButton>
