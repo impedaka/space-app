@@ -1,6 +1,15 @@
 import styled from "styled-components";
-import stars from "../../Assets/stars.jpg";
+import stars from "../../Assets/bg.png";
 import bg from "../../Assets/hero.png";
+import ree from "../../Assets/stars.png";
+export const Star = styled.div`
+  background: url(${ree});
+  min-width: 100%;
+  height: auto;
+  background-size: cover;
+
+  z-index: 999999 !important;
+`;
 export const Starbg = styled.div`
   background: url(${stars});
   max-width: 100%;
@@ -41,7 +50,7 @@ export const Subheading = styled.p`
   font-size: 36px;
 `;
 export const Button = styled.div`
-  padding: 70px 120px;
+  padding: 50px 100px;
   width: 100%;
   border: rgba(255, 255, 255, 0.5) solid 1px;
 `;
@@ -59,8 +68,8 @@ export const Grid = styled.div`
 `;
 
 export const GridItem = styled.div`
-  min-height: 280px;
-  min-width: 225px;
+  max-height: 280px;
+  max-width: 225px;
   background-color: rgba(2, 8, 24, 0.5);
   border: 2px solid #ffffff;
 `;
@@ -73,5 +82,5 @@ export const LargeText = styled.p`
 export const Foot = styled.div`
   margin-top: 180px;
   background-color: #020818;
-  padding: 50px 630px;
+  padding: 50px;
 `;
